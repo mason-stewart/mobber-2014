@@ -75,3 +75,49 @@ body * {
   display: inline-block;
   background: url('images/triangle.png') no-repeat center center;
 }
+
+/*
+  STATS STYLES
+*/
+
+.sidebar {
+  display: inline-block;
+}
+
+.join-mob {
+  height: 300px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.join-mob .join-button {
+  position: relative;
+  margin-top: 30px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  text-shadow: 0 1px 1px #9B6C00;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid rgb(185, 129, 0);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 1px 0    #fff,
+                    0 2px 3px -1px #B8B6B6;
+
+  background: #f9dd00; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f9dd00 0%, #dd9a00 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9dd00), color-stop(100%,#dd9a00)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f9dd00 0%,#dd9a00 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f9dd00 0%,#dd9a00 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f9dd00 0%,#dd9a00 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f9dd00 0%,#dd9a00 100%); /* W3C */
+}
+
+.join-card {
+  width: 280px;
+  margin: -20px auto 0;
+  border: 1px solid rgb(162, 162, 162);
+  border-radius: 6px;
+  background: #fff;
+  height: 200px;
+}
